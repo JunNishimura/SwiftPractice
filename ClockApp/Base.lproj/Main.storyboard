@@ -24,40 +24,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:18" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XU9-0b-8IL">
-                                <rect key="frame" x="88.666666666666671" y="93" width="197.66666666666663" height="115"/>
-                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="115"/>
+                                <rect key="frame" x="88" y="83" width="172" height="100"/>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="100"/>
                                 <color key="textColor" red="0.35033911381593275" green="1" blue="0.95849807134099319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtO-h5-DV8">
-                                <rect key="frame" x="282.33333333333331" y="136.66666666666666" width="33.333333333333314" height="28.333333333333343"/>
-                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="28"/>
-                                <color key="textColor" red="0.35033911381593275" green="1" blue="0.95849807134099319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4t5-Es-tAV">
-                                <rect key="frame" x="67" y="342" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4t5-Es-tAV">
+                                <rect key="frame" x="47" y="274" width="281" height="264"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtO-h5-DV8">
+                                <rect key="frame" x="268" y="144" width="38" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="vLz-X3-UTk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="20"/>
+                                <color key="textColor" red="0.35033911381593275" green="1" blue="0.95849807134099319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="XU9-0b-8IL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AL0-ay-azw"/>
-                            <constraint firstItem="QtO-h5-DV8" firstAttribute="centerY" secondItem="XU9-0b-8IL" secondAttribute="centerY" id="bu1-WE-asD"/>
-                            <constraint firstItem="XU9-0b-8IL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="f3d-gz-JQK"/>
-                            <constraint firstItem="QtO-h5-DV8" firstAttribute="leading" secondItem="XU9-0b-8IL" secondAttribute="trailing" constant="-4" id="gI5-sL-fRV"/>
+                            <constraint firstItem="4t5-Es-tAV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AaM-A3-mcr"/>
+                            <constraint firstItem="4t5-Es-tAV" firstAttribute="top" secondItem="XU9-0b-8IL" secondAttribute="bottom" constant="91" id="Rec-AF-5ZM"/>
+                            <constraint firstItem="QtO-h5-DV8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="SbB-Ep-pXT"/>
+                            <constraint firstItem="4t5-Es-tAV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cGP-i8-TKu"/>
+                            <constraint firstItem="XU9-0b-8IL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="irE-lU-ar0"/>
+                            <constraint firstItem="QtO-h5-DV8" firstAttribute="leading" secondItem="XU9-0b-8IL" secondAttribute="trailing" constant="8" symbolic="YES" id="kCY-mz-Ilk"/>
+                            <constraint firstItem="XU9-0b-8IL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="m16-3V-e1d"/>
+                            <constraint firstItem="4t5-Es-tAV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="pHA-L1-n3W"/>
+                            <constraint firstItem="QtO-h5-DV8" firstAttribute="bottom" secondItem="XU9-0b-8IL" secondAttribute="bottom" id="x4x-pj-k91"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="4t5-Es-tAV" id="KKp-MR-6FX"/>
+                        <outlet property="imageView" destination="4t5-Es-tAV" id="Iqp-5O-84C"/>
                         <outlet property="labelAMPM" destination="QtO-h5-DV8" id="Vdj-X8-C3u"/>
                         <outlet property="labelTime" destination="XU9-0b-8IL" id="y7H-0n-hYZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="133.00492610837438"/>
+            <point key="canvasLocation" x="-82.400000000000006" y="130.78817733990149"/>
         </scene>
     </scenes>
 </document>
