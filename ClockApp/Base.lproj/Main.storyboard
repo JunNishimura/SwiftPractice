@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="pocketCalculator.TTF">
+            <string>PocketCalculator</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClockApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:18" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XU9-0b-8IL">
+                                <rect key="frame" x="88.666666666666671" y="93" width="197.66666666666663" height="115"/>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="115"/>
+                                <color key="textColor" red="0.35033911381593275" green="1" blue="0.95849807134099319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtO-h5-DV8">
+                                <rect key="frame" x="282.33333333333331" y="136.66666666666666" width="33.333333333333314" height="28.333333333333343"/>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="28"/>
+                                <color key="textColor" red="0.35033911381593275" green="1" blue="0.95849807134099319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XU9-0b-8IL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AL0-ay-azw"/>
+                            <constraint firstItem="QtO-h5-DV8" firstAttribute="centerY" secondItem="XU9-0b-8IL" secondAttribute="centerY" id="bu1-WE-asD"/>
+                            <constraint firstItem="XU9-0b-8IL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="f3d-gz-JQK"/>
+                            <constraint firstItem="QtO-h5-DV8" firstAttribute="leading" secondItem="XU9-0b-8IL" secondAttribute="trailing" constant="-4" id="gI5-sL-fRV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelAMPM" destination="QtO-h5-DV8" id="Vdj-X8-C3u"/>
+                        <outlet property="labelTime" destination="XU9-0b-8IL" id="y7H-0n-hYZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
