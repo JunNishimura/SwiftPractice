@@ -4,4 +4,4 @@
 - the function is to show the time, and depending on the time you open the app, the image will change.
 
 - sleeping time
-![Img](image/sleeping.jpg "sleeping time")
+![Img](image/sleeping.png "sleeping time")
