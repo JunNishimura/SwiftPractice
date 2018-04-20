@@ -7,4 +7,20 @@
 ## example 
 - sleeping time
 
-![Img](image/sleeping.png "sleeping time")
+![Img](image/sleeping.png)
+
+- breakfast time
+
+![Img](image/breakfast.png)
+
+- lunch time
+
+![Img](image/lunch.png)
+
+- dinner time
+
+![Img](image/dinner.png)
+
+- nightfood time
+
+![Img](image/nightfood.png)
