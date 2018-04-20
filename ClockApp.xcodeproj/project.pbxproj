@@ -17,6 +17,8 @@
 		25C9BA1C208A4211008B12ED /* lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BA19208A4211008B12ED /* lunch.png */; };
 		25C9BA1D208A4211008B12ED /* breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BA1A208A4211008B12ED /* breakfast.jpg */; };
 		25C9BA1E208A4211008B12ED /* dinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BA1B208A4211008B12ED /* dinner.png */; };
+		25C9BA21208A478C008B12ED /* nightfood.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BA1F208A478C008B12ED /* nightfood.png */; };
+		25C9BA22208A478C008B12ED /* sleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BA20208A478C008B12ED /* sleeping.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		25C9BA19208A4211008B12ED /* lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunch.png; sourceTree = "<group>"; };
 		25C9BA1A208A4211008B12ED /* breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breakfast.jpg; sourceTree = "<group>"; };
 		25C9BA1B208A4211008B12ED /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinner.png; sourceTree = "<group>"; };
+		25C9BA1F208A478C008B12ED /* nightfood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightfood.png; sourceTree = "<group>"; };
+		25C9BA20208A478C008B12ED /* sleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeping.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +79,7 @@
 		2505E6842087F4570001611B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				25C9BA1A208A4211008B12ED /* breakfast.jpg */,
-				25C9BA1B208A4211008B12ED /* dinner.png */,
-				25C9BA19208A4211008B12ED /* lunch.png */,
+				25C9BA23208A4792008B12ED /* images */,
 				2505E6872087FB0A0001611B /* Pocket_Calculator */,
 				2505E6852087F6A70001611B /* morning.jpg */,
 				2505E6722087F4080001611B /* AppDelegate.swift */,
@@ -85,6 +87,18 @@
 				2505E67B2087F4080001611B /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C9BA23208A4792008B12ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				25C9BA1F208A478C008B12ED /* nightfood.png */,
+				25C9BA20208A478C008B12ED /* sleeping.png */,
+				25C9BA1A208A4211008B12ED /* breakfast.jpg */,
+				25C9BA1B208A4211008B12ED /* dinner.png */,
+				25C9BA19208A4211008B12ED /* lunch.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C9BA22208A478C008B12ED /* sleeping.png in Resources */,
 				2505E6862087F6A70001611B /* morning.jpg in Resources */,
 				2505E67D2087F4080001611B /* LaunchScreen.storyboard in Resources */,
+				25C9BA21208A478C008B12ED /* nightfood.png in Resources */,
 				2505E67A2087F4080001611B /* Assets.xcassets in Resources */,
 				2505E6882087FB0B0001611B /* Pocket_Calculator in Resources */,
 				25C9BA1D208A4211008B12ED /* breakfast.jpg in Resources */,
