@@ -1,5 +1,5 @@
 # SwiftPractice
-- these are collections containing the practice of making ios app and game with swift
+- this is a collection containing the practice of making ios app and game with swift
 
 ||name|description|picture|
 |:--:|:--:|:--|:--:|
