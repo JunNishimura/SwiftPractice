@@ -2,7 +2,7 @@
 - these are collections containing the practice of making ios app and game with swift
 
 ||name|description|picture|
-|:--:|:--:|--:|:--:|
+|:--:|:--:|:--|:--:|
 |1|clockApp|this is the app which gives the time with the picture which shows the propper event. e.g.) in the morning, the picutre will show the breakfast |![Img](ClockApp/image/breakfast.png)|
 |2|BombTimer| |![Img](BombTimer/image/)|
 |3|clockTimer|this is the ios game. Stop the button when the increasing number is same with the target number|![Img](clockTimer/image/process.png)|
