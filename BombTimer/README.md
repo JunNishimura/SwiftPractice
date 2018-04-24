@@ -7,7 +7,7 @@
 - start scene
   - press the button to start
   
-  ![Img](image/startScene.png)
+![Img](image/startScene.png)
 
 - game start
 
@@ -20,11 +20,11 @@
 - gameOver 
   - if you missed multiples of 3 or numbers including 3
   
-  ![Img](image/youmissed.png)
+![Img](image/youmissed.png)
   
   - if you press button when unreleated numbers are appearing
   
-  ![Img](image/unreleated.png)
+![Img](image/unrelated.png)
   
 - gameClear
 
