@@ -62,7 +62,7 @@
 				25A595C6208E836800D9BA09 /* Main.storyboard */,
 				25A595CE208E836A00D9BA09 /* Info.plist */,
 			);
-			path = clockTimer;
+			name = clockTimer;
 			sourceTree = "<group>";
 		};
 		25A595D4208E838400D9BA09 /* Supporting Files */ = {
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25A595BA208E836800D9BA09 /* Build configuration list for PBXProject "clockTimer" */;
+			buildConfigurationList = 25A595BA208E836800D9BA09 /* Build configuration list for PBXProject "clockTImer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = clockTimer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = clockTimer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25A595BA208E836800D9BA09 /* Build configuration list for PBXProject "clockTimer" */ = {
+		25A595BA208E836800D9BA09 /* Build configuration list for PBXProject "clockTImer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25A595CF208E836A00D9BA09 /* Debug */,

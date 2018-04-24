@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2505E66F2087F4080001611B /* ClockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2505E66F2087F4080001611B /* ClockAppApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockAppApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2505E6722087F4080001611B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2505E6742087F4080001611B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2505E6772087F4080001611B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		2505E6702087F4080001611B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2505E66F2087F4080001611B /* ClockApp.app */,
+				2505E66F2087F4080001611B /* ClockAppApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2505E66E2087F4080001611B /* ClockApp */ = {
+		2505E66E2087F4080001611B /* ClockAppApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2505E6812087F4080001611B /* Build configuration list for PBXNativeTarget "ClockApp" */;
+			buildConfigurationList = 2505E6812087F4080001611B /* Build configuration list for PBXNativeTarget "ClockAppApp" */;
 			buildPhases = (
 				2505E66B2087F4080001611B /* Sources */,
 				2505E66C2087F4080001611B /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = ClockApp;
+			name = ClockAppApp;
 			productName = ClockApp;
-			productReference = 2505E66F2087F4080001611B /* ClockApp.app */;
+			productReference = 2505E66F2087F4080001611B /* ClockAppApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2505E66A2087F4080001611B /* Build configuration list for PBXProject "Clock" */;
+			buildConfigurationList = 2505E66A2087F4080001611B /* Build configuration list for PBXProject "ClockApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2505E66E2087F4080001611B /* ClockApp */,
+				2505E66E2087F4080001611B /* ClockAppApp */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2505E66A2087F4080001611B /* Build configuration list for PBXProject "Clock" */ = {
+		2505E66A2087F4080001611B /* Build configuration list for PBXProject "ClockApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2505E67F2087F4080001611B /* Debug */,
@@ -361,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2505E6812087F4080001611B /* Build configuration list for PBXNativeTarget "ClockApp" */ = {
+		2505E6812087F4080001611B /* Build configuration list for PBXNativeTarget "ClockAppApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2505E6822087F4080001611B /* Debug */,
