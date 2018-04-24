@@ -52,7 +52,7 @@
 		2505E6662087F4080001611B = {
 			isa = PBXGroup;
 			children = (
-				2505E6712087F4080001611B /* ClockApp */,
+				2505E6712087F4080001611B /* clockApp */,
 				2505E6702087F4080001611B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2505E6712087F4080001611B /* ClockApp */ = {
+		2505E6712087F4080001611B /* clockApp */ = {
 			isa = PBXGroup;
 			children = (
 				2505E6842087F4570001611B /* Supporting Files */,
@@ -73,7 +73,7 @@
 				2505E6762087F4080001611B /* Main.storyboard */,
 				2505E67E2087F4080001611B /* Info.plist */,
 			);
-			path = ClockApp;
+			name = clockApp;
 			sourceTree = "<group>";
 		};
 		2505E6842087F4570001611B /* Supporting Files */ = {
@@ -128,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = NJ0303;
 				TargetAttributes = {
 					2505E66E2087F4080001611B = {
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2505E66A2087F4080001611B /* Build configuration list for PBXProject "ClockApp" */;
+			buildConfigurationList = 2505E66A2087F4080001611B /* Build configuration list for PBXProject "Clock" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,6 +221,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -228,6 +229,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -278,6 +280,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -285,6 +288,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -309,7 +313,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -320,7 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEK344T6E6;
-				INFOPLIST_FILE = ClockApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NJ0303.ClockApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEK344T6E6;
-				INFOPLIST_FILE = ClockApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NJ0303.ClockApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2505E66A2087F4080001611B /* Build configuration list for PBXProject "ClockApp" */ = {
+		2505E66A2087F4080001611B /* Build configuration list for PBXProject "Clock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2505E67F2087F4080001611B /* Debug */,
