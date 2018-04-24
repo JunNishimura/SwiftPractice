@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="pocketCalculator.TTF">
+            <string>PocketCalculator</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BombTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BombGame" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6i-JU-mkj">
+                                <rect key="frame" x="16" y="20" width="343" height="58"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-HQ-d6d">
+                                <rect key="frame" x="16" y="277" width="343" height="113"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="GrZ-s5-NYW"/>
+                                    <constraint firstAttribute="width" constant="343" id="lOt-yA-1Cu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
+                                <state key="normal" title="Game Start">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dSE-mc-fLo" kind="presentation" id="ZHc-A0-d9v"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bomb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-ri-YkP">
+                                <rect key="frame" x="16" y="98" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="2f9-cr-laS"/>
+                                    <constraint firstAttribute="width" constant="150" id="sbT-C6-0ed"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jng-ri-YkP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0cY-11-X55"/>
+                            <constraint firstItem="I6i-JU-mkj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Glw-X1-KxA"/>
+                            <constraint firstItem="I6i-JU-mkj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Sgy-ir-Mpl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I6i-JU-mkj" secondAttribute="trailing" constant="16" id="gWu-cV-1ci"/>
+                            <constraint firstItem="Jng-ri-YkP" firstAttribute="top" secondItem="I6i-JU-mkj" secondAttribute="bottom" constant="20" id="ovE-0G-prG"/>
+                            <constraint firstItem="mCk-HQ-d6d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pn1-2F-ISi"/>
+                            <constraint firstItem="mCk-HQ-d6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tcn-ex-B52"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+        <!--Game Scene-->
+        <scene sceneID="Xxa-8E-7Qr">
+            <objects>
+                <viewController id="dSE-mc-fLo" customClass="GameScene" customModule="BombTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vft-on-Z2x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdR-Pa-uKw">
+                                <rect key="frame" x="16" y="555" width="343" height="92"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="PZ4-dh-kgZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sdd-gh-U7w" kind="unwind" unwindAction="returnTopWithSegue:" id="Hik-o1-GIP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmH-d1-2Tx">
+                                <rect key="frame" x="137" y="192" width="100" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="28I-B5-EKg"/>
+                                    <constraint firstAttribute="width" constant="100" id="N2C-ha-LZv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWK-So-GDI">
+                                <rect key="frame" x="137" y="283.5" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Fo6-oO-Dot"/>
+                                    <constraint firstAttribute="height" constant="100" id="UnP-LK-SeV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonFunc:" destination="dSE-mc-fLo" eventType="touchUpInside" id="4xO-o3-S1E"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GAME OVER!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ik-ow-NgC">
+                                <rect key="frame" x="16" y="266" width="343" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="WvV-Tc-3oK"/>
+                                    <constraint firstAttribute="height" constant="77" id="oJt-S8-erd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="50"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU MISSED 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-LZ-Oxj">
+                                <rect key="frame" x="16" y="351" width="343" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="2XB-t9-W3E"/>
+                                    <constraint firstAttribute="height" constant="77" id="N68-6e-5JK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PocketCalculator" family="Pocket Calculator" pointSize="40"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vN-qI-6RM">
+                                <rect key="frame" x="16" y="555" width="343" height="92"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="0ef-3K-8LR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startFunc:" destination="dSE-mc-fLo" eventType="touchUpInside" id="BIO-Mh-VNM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6vN-qI-6RM" firstAttribute="leading" secondItem="tMI-bF-p3z" secondAttribute="leading" constant="16" id="67f-9L-SiS"/>
+                            <constraint firstItem="6vN-qI-6RM" firstAttribute="centerX" secondItem="vft-on-Z2x" secondAttribute="centerX" id="6Lj-Po-p5j"/>
+                            <constraint firstItem="8Ik-ow-NgC" firstAttribute="top" secondItem="tMI-bF-p3z" secondAttribute="top" constant="246" id="AGq-IF-00J"/>
+                            <constraint firstItem="tWK-So-GDI" firstAttribute="centerX" secondItem="vft-on-Z2x" secondAttribute="centerX" id="Ebf-g8-CYB"/>
+                            <constraint firstItem="tMI-bF-p3z" firstAttribute="bottom" secondItem="6vN-qI-6RM" secondAttribute="bottom" constant="20" id="RJa-15-xvB"/>
+                            <constraint firstItem="a8w-LZ-Oxj" firstAttribute="leading" secondItem="tMI-bF-p3z" secondAttribute="leading" constant="16" id="Vx3-XN-qmP"/>
+                            <constraint firstItem="tMI-bF-p3z" firstAttribute="trailing" secondItem="SdR-Pa-uKw" secondAttribute="trailing" constant="16" id="eXC-Va-cfJ"/>
+                            <constraint firstItem="a8w-LZ-Oxj" firstAttribute="top" secondItem="WmH-d1-2Tx" secondAttribute="bottom" constant="64" id="fIo-Hs-Q2b"/>
+                            <constraint firstItem="8Ik-ow-NgC" firstAttribute="leading" secondItem="tMI-bF-p3z" secondAttribute="leading" constant="16" id="fkV-GG-Sye"/>
+                            <constraint firstItem="WmH-d1-2Tx" firstAttribute="centerX" secondItem="vft-on-Z2x" secondAttribute="centerX" id="gtP-7O-VnZ"/>
+                            <constraint firstItem="SdR-Pa-uKw" firstAttribute="centerX" secondItem="vft-on-Z2x" secondAttribute="centerX" id="iLA-F9-8Y5"/>
+                            <constraint firstItem="a8w-LZ-Oxj" firstAttribute="top" secondItem="8Ik-ow-NgC" secondAttribute="bottom" constant="8" id="jQ3-YO-uRh"/>
+                            <constraint firstItem="tWK-So-GDI" firstAttribute="centerY" secondItem="vft-on-Z2x" secondAttribute="centerY" id="uXc-DD-UOJ"/>
+                            <constraint firstItem="tMI-bF-p3z" firstAttribute="trailing" secondItem="6vN-qI-6RM" secondAttribute="trailing" constant="16" id="ulY-th-CMA"/>
+                            <constraint firstItem="tMI-bF-p3z" firstAttribute="bottom" secondItem="SdR-Pa-uKw" secondAttribute="bottom" constant="20" id="wzL-cO-ocp"/>
+                            <constraint firstItem="SdR-Pa-uKw" firstAttribute="leading" secondItem="tMI-bF-p3z" secondAttribute="leading" constant="16" id="yET-z1-Yiv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tMI-bF-p3z"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLabel" destination="tWK-So-GDI" id="yZh-1c-s9c"/>
+                        <outlet property="countLabel" destination="WmH-d1-2Tx" id="EC0-sv-Pun"/>
+                        <outlet property="lastMessage1" destination="8Ik-ow-NgC" id="u7B-rp-LhK"/>
+                        <outlet property="lastMessage2" destination="a8w-LZ-Oxj" id="FN6-KC-c9e"/>
+                        <outlet property="restartButton" destination="SdR-Pa-uKw" id="OUg-N4-4x3"/>
+                        <outlet property="startButton" destination="6vN-qI-6RM" id="47W-f4-4aF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cos-FT-fcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Sdd-gh-U7w" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bomb.jpg" width="1864" height="1864"/>
+    </resources>
+</document>
