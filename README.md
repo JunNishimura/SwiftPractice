@@ -3,5 +3,5 @@
 
 ||name|description|picture|
 |:--:|:--:|:--:|:--:|
-|1|clockApp|this is the app which gives the time with the picture which shows the propper event. e.g.) in the morning, the picutre will show the breakfast |[Img](clockApp/image/breakfast.png)|
+|1|clockApp|this is the app which gives the time with the picture which shows the propper event. e.g.) in the morning, the picutre will show the breakfast |![Img](ClockApp/image/breakfast.png)|
 
