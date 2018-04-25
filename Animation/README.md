@@ -5,16 +5,16 @@
 ## Examples
 - these are some examples of what you can see. (these are beatiful)
 
-![Img](/image/ex01.png)
+![Img](Animation/image/ex01.png)
 
-![Img](/image/ex02.png)
+![Img](Animation/image/ex02.png)
 
-![Img](/image/ex03.png)
+![Img](Animation/image/ex03.png)
 
-![Img](/image/ex04.png)
+![Img](Animation/image/ex04.png)
 
-![Img](/image/ex05.png)
+![Img](Animation/image/ex05.png)
 
 - gif animation
 
-![Img](/image/anim.gif)
+![Img](Animation/image/anim.gif)
