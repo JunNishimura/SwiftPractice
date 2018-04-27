@@ -246,7 +246,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOOD BOY!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niz-bl-GJ4">
-                                <rect key="frame" x="0.0" y="415" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="350" width="375" height="100"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -255,19 +255,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="BY3-Cl-ClR" firstAttribute="top" secondItem="ELg-cT-4Xe" secondAttribute="bottom" constant="50" id="1k9-sY-TSH"/>
-                            <constraint firstItem="niz-bl-GJ4" firstAttribute="trailing" secondItem="ELg-cT-4Xe" secondAttribute="trailing" id="30n-Up-ay6"/>
                             <constraint firstItem="ELg-cT-4Xe" firstAttribute="top" secondItem="t4U-u6-vBQ" secondAttribute="top" constant="92" id="7OO-W6-dvX"/>
                             <constraint firstItem="ELg-cT-4Xe" firstAttribute="trailing" secondItem="t4U-u6-vBQ" secondAttribute="trailing" id="9oh-WX-OpM"/>
+                            <constraint firstItem="niz-bl-GJ4" firstAttribute="top" secondItem="Cli-KA-LjZ" secondAttribute="bottom" constant="26" id="AfE-8X-LIc"/>
                             <constraint firstItem="B8Y-c1-UaD" firstAttribute="leading" secondItem="BY3-Cl-ClR" secondAttribute="trailing" constant="8" id="BYm-yI-qWZ"/>
-                            <constraint firstItem="niz-bl-GJ4" firstAttribute="leading" secondItem="ELg-cT-4Xe" secondAttribute="leading" id="Fpv-Cc-sdO"/>
-                            <constraint firstItem="niz-bl-GJ4" firstAttribute="top" secondItem="Cli-KA-LjZ" secondAttribute="bottom" constant="91" id="XQ6-00-0Bh"/>
+                            <constraint firstItem="niz-bl-GJ4" firstAttribute="leading" secondItem="ELg-cT-4Xe" secondAttribute="leading" id="F3X-hA-UEO"/>
+                            <constraint firstItem="t4U-u6-vBQ" firstAttribute="bottom" secondItem="niz-bl-GJ4" secondAttribute="bottom" constant="217" id="WYz-Au-JfJ"/>
                             <constraint firstItem="Cli-KA-LjZ" firstAttribute="centerX" secondItem="yMs-Dw-i1J" secondAttribute="centerX" id="bYt-by-wWX"/>
                             <constraint firstItem="B8Y-c1-UaD" firstAttribute="centerX" secondItem="yMs-Dw-i1J" secondAttribute="centerX" id="bro-1A-yyM"/>
                             <constraint firstItem="ELg-cT-4Xe" firstAttribute="centerX" secondItem="yMs-Dw-i1J" secondAttribute="centerX" id="c1L-Eg-BwF"/>
                             <constraint firstItem="Cli-KA-LjZ" firstAttribute="top" secondItem="B8Y-c1-UaD" secondAttribute="bottom" constant="8" id="klW-mg-HGS"/>
+                            <constraint firstItem="niz-bl-GJ4" firstAttribute="trailing" secondItem="ELg-cT-4Xe" secondAttribute="trailing" id="m3V-6n-V5f"/>
                             <constraint firstItem="ELg-cT-4Xe" firstAttribute="leading" secondItem="t4U-u6-vBQ" secondAttribute="leading" id="vnW-DC-goY"/>
                             <constraint firstItem="B8Y-c1-UaD" firstAttribute="top" secondItem="ELg-cT-4Xe" secondAttribute="bottom" constant="52" id="zA7-79-rV7"/>
-                            <constraint firstItem="t4U-u6-vBQ" firstAttribute="bottom" secondItem="niz-bl-GJ4" secondAttribute="bottom" constant="152" id="zv3-xk-ko3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t4U-u6-vBQ"/>
                     </view>
@@ -332,7 +332,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOOD BOY!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzm-4p-glG">
-                                <rect key="frame" x="0.0" y="415" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="350" width="375" height="100"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -341,15 +341,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="cm0-nL-vSt" firstAttribute="centerX" secondItem="8nx-0G-ghG" secondAttribute="centerX" id="24b-u5-70d"/>
-                            <constraint firstItem="hzm-4p-glG" firstAttribute="leading" secondItem="nzK-pu-BhY" secondAttribute="leading" id="8si-Jd-2EH"/>
-                            <constraint firstItem="hzm-4p-glG" firstAttribute="trailing" secondItem="nzK-pu-BhY" secondAttribute="trailing" id="Djm-mc-WxW"/>
+                            <constraint firstItem="1Dx-CW-Q3T" firstAttribute="bottom" secondItem="hzm-4p-glG" secondAttribute="bottom" constant="217" id="6rW-PH-WeA"/>
+                            <constraint firstItem="hzm-4p-glG" firstAttribute="trailing" secondItem="nzK-pu-BhY" secondAttribute="trailing" id="IDr-4m-kCF"/>
                             <constraint firstItem="x5S-5j-WhP" firstAttribute="top" secondItem="nzK-pu-BhY" secondAttribute="bottom" constant="50" id="JR3-lt-ShP"/>
                             <constraint firstItem="nzK-pu-BhY" firstAttribute="centerX" secondItem="8nx-0G-ghG" secondAttribute="centerX" id="NK4-6s-EMD"/>
+                            <constraint firstItem="hzm-4p-glG" firstAttribute="top" secondItem="cm0-nL-vSt" secondAttribute="bottom" constant="26" id="P2d-Cr-IgD"/>
                             <constraint firstItem="nzK-pu-BhY" firstAttribute="top" secondItem="1Dx-CW-Q3T" secondAttribute="top" constant="92" id="Ufe-A4-eSc"/>
                             <constraint firstItem="nzK-pu-BhY" firstAttribute="trailing" secondItem="1Dx-CW-Q3T" secondAttribute="trailing" id="YlD-OH-Afb"/>
-                            <constraint firstItem="1Dx-CW-Q3T" firstAttribute="bottom" secondItem="hzm-4p-glG" secondAttribute="bottom" constant="152" id="ZLF-yx-5cH"/>
+                            <constraint firstItem="hzm-4p-glG" firstAttribute="leading" secondItem="nzK-pu-BhY" secondAttribute="leading" id="bnQ-tP-JuX"/>
                             <constraint firstItem="Fud-Rm-kge" firstAttribute="centerX" secondItem="8nx-0G-ghG" secondAttribute="centerX" id="dCW-Nt-dGA"/>
-                            <constraint firstItem="hzm-4p-glG" firstAttribute="top" secondItem="cm0-nL-vSt" secondAttribute="bottom" constant="91" id="idC-ZG-JVL"/>
                             <constraint firstItem="Fud-Rm-kge" firstAttribute="top" secondItem="nzK-pu-BhY" secondAttribute="bottom" constant="52" id="rdp-cr-tHC"/>
                             <constraint firstItem="nzK-pu-BhY" firstAttribute="leading" secondItem="1Dx-CW-Q3T" secondAttribute="leading" id="tSF-He-VC7"/>
                             <constraint firstItem="Fud-Rm-kge" firstAttribute="leading" secondItem="x5S-5j-WhP" secondAttribute="trailing" constant="8" id="vf8-fG-Lsm"/>
