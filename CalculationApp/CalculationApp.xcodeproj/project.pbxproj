@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25558331209395D3007B16BC /* ResetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25558330209395D3007B16BC /* ResetPage.swift */; };
 		2580236020934B7F00BE1971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580235F20934B7F00BE1971 /* AppDelegate.swift */; };
 		2580236220934B7F00BE1971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580236120934B7F00BE1971 /* ViewController.swift */; };
 		2580236520934B7F00BE1971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2580236320934B7F00BE1971 /* Main.storyboard */; };
 		2580236720934B8000BE1971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2580236620934B8000BE1971 /* Assets.xcassets */; };
 		2580236A20934B8000BE1971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2580236820934B8000BE1971 /* LaunchScreen.storyboard */; };
+		2580237320934CD900BE1971 /* Pocket_Calculator in Resources */ = {isa = PBXBuildFile; fileRef = 2580237220934CD900BE1971 /* Pocket_Calculator */; };
+		2580237920935B4900BE1971 /* SceneSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580237820935B4900BE1971 /* SceneSelect.swift */; };
+		2580237B20935C5D00BE1971 /* EasyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580237A20935C5D00BE1971 /* EasyScene.swift */; };
+		2580237D20935C6C00BE1971 /* HardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580237C20935C6C00BE1971 /* HardScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25558330209395D3007B16BC /* ResetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPage.swift; sourceTree = "<group>"; };
 		2580235C20934B7F00BE1971 /* CalculationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2580235F20934B7F00BE1971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2580236120934B7F00BE1971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		2580236620934B8000BE1971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2580236920934B8000BE1971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2580236B20934B8000BE1971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2580237220934CD900BE1971 /* Pocket_Calculator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pocket_Calculator; sourceTree = "<group>"; };
+		2580237820935B4900BE1971 /* SceneSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneSelect.swift; sourceTree = "<group>"; };
+		2580237A20935C5D00BE1971 /* EasyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyScene.swift; sourceTree = "<group>"; };
+		2580237C20935C6C00BE1971 /* HardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		2580235E20934B7F00BE1971 /* CalculationApp */ = {
 			isa = PBXGroup;
 			children = (
-				2580235F20934B7F00BE1971 /* AppDelegate.swift */,
+				2580237120934B8900BE1971 /* Supporting Files */,
 				2580236120934B7F00BE1971 /* ViewController.swift */,
 				2580236320934B7F00BE1971 /* Main.storyboard */,
-				2580236620934B8000BE1971 /* Assets.xcassets */,
-				2580236820934B8000BE1971 /* LaunchScreen.storyboard */,
 				2580236B20934B8000BE1971 /* Info.plist */,
+				2580237820935B4900BE1971 /* SceneSelect.swift */,
+				2580237A20935C5D00BE1971 /* EasyScene.swift */,
+				2580237C20935C6C00BE1971 /* HardScene.swift */,
+				25558330209395D3007B16BC /* ResetPage.swift */,
 			);
 			path = CalculationApp;
+			sourceTree = "<group>";
+		};
+		2580237120934B8900BE1971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2580237220934CD900BE1971 /* Pocket_Calculator */,
+				2580235F20934B7F00BE1971 /* AppDelegate.swift */,
+				2580236620934B8000BE1971 /* Assets.xcassets */,
+				2580236820934B8000BE1971 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2580237320934CD900BE1971 /* Pocket_Calculator in Resources */,
 				2580236A20934B8000BE1971 /* LaunchScreen.storyboard in Resources */,
 				2580236720934B8000BE1971 /* Assets.xcassets in Resources */,
 				2580236520934B7F00BE1971 /* Main.storyboard in Resources */,
@@ -137,6 +161,10 @@
 			files = (
 				2580236220934B7F00BE1971 /* ViewController.swift in Sources */,
 				2580236020934B7F00BE1971 /* AppDelegate.swift in Sources */,
+				25558331209395D3007B16BC /* ResetPage.swift in Sources */,
+				2580237B20935C5D00BE1971 /* EasyScene.swift in Sources */,
+				2580237920935B4900BE1971 /* SceneSelect.swift in Sources */,
+				2580237D20935C6C00BE1971 /* HardScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
