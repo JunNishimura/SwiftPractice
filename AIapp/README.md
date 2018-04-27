@@ -7,4 +7,4 @@
 
 ![Img](/AIapp/image/ex01.png)
 
-![Img](/AIapp/image/ex02.png)
+![Img](/AIapp/image/ex02.PNG)
