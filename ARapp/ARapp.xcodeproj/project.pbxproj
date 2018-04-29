@@ -13,6 +13,7 @@
 		25B4CAC12095606B00C61A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4CABF2095606B00C61A63 /* Main.storyboard */; };
 		25B4CAC32095606C00C61A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B4CAC22095606C00C61A63 /* Assets.xcassets */; };
 		25B4CAC62095606C00C61A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4CAC42095606C00C61A63 /* LaunchScreen.storyboard */; };
+		25B4CACF2095695A00C61A63 /* bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25B4CACE2095695A00C61A63 /* bubble.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		25B4CAC22095606C00C61A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B4CAC52095606C00C61A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B4CAC72095606C00C61A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B4CACE2095695A00C61A63 /* bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubble.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		25B4CAB82095606B00C61A63 /* ARapp */ = {
 			isa = PBXGroup;
 			children = (
-				25B4CAB92095606B00C61A63 /* AppDelegate.swift */,
+				25B4CACE2095695A00C61A63 /* bubble.mp3 */,
+				25B4CACD2095607900C61A63 /* Supporting Files */,
 				25B4CABB2095606B00C61A63 /* art.scnassets */,
 				25B4CABD2095606B00C61A63 /* ViewController.swift */,
 				25B4CABF2095606B00C61A63 /* Main.storyboard */,
-				25B4CAC22095606C00C61A63 /* Assets.xcassets */,
-				25B4CAC42095606C00C61A63 /* LaunchScreen.storyboard */,
 				25B4CAC72095606C00C61A63 /* Info.plist */,
 			);
 			path = ARapp;
+			sourceTree = "<group>";
+		};
+		25B4CACD2095607900C61A63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B4CAB92095606B00C61A63 /* AppDelegate.swift */,
+				25B4CAC22095606C00C61A63 /* Assets.xcassets */,
+				25B4CAC42095606C00C61A63 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				25B4CABC2095606B00C61A63 /* art.scnassets in Resources */,
 				25B4CAC62095606C00C61A63 /* LaunchScreen.storyboard in Resources */,
+				25B4CACF2095695A00C61A63 /* bubble.mp3 in Resources */,
 				25B4CAC32095606C00C61A63 /* Assets.xcassets in Resources */,
 				25B4CAC12095606B00C61A63 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEK344T6E6;
 				INFOPLIST_FILE = ARapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEK344T6E6;
 				INFOPLIST_FILE = ARapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
