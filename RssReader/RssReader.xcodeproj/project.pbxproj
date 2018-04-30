@@ -14,7 +14,6 @@
 		2562D41B2095C5BE00498047 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D41A2095C5BE00498047 /* ListViewController.swift */; };
 		2562D41D2095CC2200498047 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D41C2095CC2200498047 /* Item.swift */; };
 		2562D4202095D45800498047 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2562D41F2095D45800498047 /* WebKit.framework */; };
-		2562D4222095D48400498047 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D4212095D48400498047 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		2562D41A2095C5BE00498047 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2562D41C2095CC2200498047 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2562D41F2095D45800498047 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		2562D4212095D48400498047 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "Supporting Files/DetailViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 				2562D4132095C4EF00498047 /* Info.plist */,
 				2562D41A2095C5BE00498047 /* ListViewController.swift */,
 				2562D41C2095CC2200498047 /* Item.swift */,
-				2562D4212095D48400498047 /* DetailViewController.swift */,
 			);
 			path = RssReader;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 				2562D41B2095C5BE00498047 /* ListViewController.swift in Sources */,
 				2562D41D2095CC2200498047 /* Item.swift in Sources */,
 				2562D4082095C4EE00498047 /* AppDelegate.swift in Sources */,
-				2562D4222095D48400498047 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
