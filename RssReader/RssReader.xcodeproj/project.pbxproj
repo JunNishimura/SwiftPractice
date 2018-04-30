@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2562D4082095C4EE00498047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D4072095C4EE00498047 /* AppDelegate.swift */; };
-		2562D40A2095C4EE00498047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D4092095C4EE00498047 /* ViewController.swift */; };
 		2562D40D2095C4EE00498047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2562D40B2095C4EE00498047 /* Main.storyboard */; };
 		2562D40F2095C4EF00498047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2562D40E2095C4EF00498047 /* Assets.xcassets */; };
 		2562D4122095C4EF00498047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2562D4102095C4EF00498047 /* LaunchScreen.storyboard */; };
+		2562D41B2095C5BE00498047 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D41A2095C5BE00498047 /* ListViewController.swift */; };
+		2562D41D2095CC2200498047 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D41C2095CC2200498047 /* Item.swift */; };
+		2562D4202095D45800498047 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2562D41F2095D45800498047 /* WebKit.framework */; };
+		2562D4222095D48400498047 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2562D4212095D48400498047 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2562D4042095C4EE00498047 /* RssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2562D4072095C4EE00498047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2562D4092095C4EE00498047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2562D40C2095C4EE00498047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2562D40E2095C4EF00498047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2562D4112095C4EF00498047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2562D4132095C4EF00498047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2562D41A2095C5BE00498047 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2562D41C2095CC2200498047 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2562D41F2095D45800498047 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2562D4212095D48400498047 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "Supporting Files/DetailViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2562D4202095D45800498047 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 			children = (
 				2562D4062095C4EE00498047 /* RssReader */,
 				2562D4052095C4EE00498047 /* Products */,
+				2562D41E2095D45800498047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +62,32 @@
 		2562D4062095C4EE00498047 /* RssReader */ = {
 			isa = PBXGroup;
 			children = (
-				2562D4072095C4EE00498047 /* AppDelegate.swift */,
-				2562D4092095C4EE00498047 /* ViewController.swift */,
+				2562D4192095C51700498047 /* Supporting Files */,
 				2562D40B2095C4EE00498047 /* Main.storyboard */,
-				2562D40E2095C4EF00498047 /* Assets.xcassets */,
-				2562D4102095C4EF00498047 /* LaunchScreen.storyboard */,
 				2562D4132095C4EF00498047 /* Info.plist */,
+				2562D41A2095C5BE00498047 /* ListViewController.swift */,
+				2562D41C2095CC2200498047 /* Item.swift */,
+				2562D4212095D48400498047 /* DetailViewController.swift */,
 			);
 			path = RssReader;
+			sourceTree = "<group>";
+		};
+		2562D4192095C51700498047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2562D4072095C4EE00498047 /* AppDelegate.swift */,
+				2562D40E2095C4EF00498047 /* Assets.xcassets */,
+				2562D4102095C4EF00498047 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2562D41E2095D45800498047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2562D41F2095D45800498047 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2562D40A2095C4EE00498047 /* ViewController.swift in Sources */,
+				2562D41B2095C5BE00498047 /* ListViewController.swift in Sources */,
+				2562D41D2095CC2200498047 /* Item.swift in Sources */,
 				2562D4082095C4EE00498047 /* AppDelegate.swift in Sources */,
+				2562D4222095D48400498047 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
