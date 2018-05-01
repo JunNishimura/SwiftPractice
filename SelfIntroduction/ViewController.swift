@@ -28,7 +28,20 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("index path is \(indexPath.row)")
         
+//        switch indexPath.row {
+//        case 0:
+//
+//        case 1:
+//
+//        case 2:
+//
+//        case 3:
+//
+//        default:
+//            print("error")
+//        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -43,5 +56,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let controller = segue.destination as! DetailViewController
+//        controller.title = mainMenu[]
+//    }
 }
 
