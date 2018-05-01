@@ -3,4 +3,4 @@
 
 # Demo Scene
 
-![Img](/SelfIntroduction/image/ex01.png)
+![Img](SelfIntroduction/image/ex01.png)
