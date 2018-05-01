@@ -13,7 +13,7 @@
 |7|[CalculationApp](https://github.com/JunNishimura/SwiftPractice/tree/master/CalculationApp)|this is just calculation game, but in this app I practiced the communication between multiple views.|![Img](CalculationApp/image/anim.gif)|
 |8|[ARapp](https://github.com/JunNishimura/SwiftPractice/tree/master/ARapp)|you can add objects into the read world by interacting with the screen of iPhone|![Img](ARapp/image/anim.gif)|
 |9|[RSSReaderApp](https://github.com/JunNishimura/SwiftPractice/tree/master/RssReader)|this is the practice of the rss reader app. |![Img](RssReader/image/anim.gif)|
-|10|| |![Img](/image/)|
+|10|[SelfIntroduction](https://github.com/JunNishimura/SwiftPractice/tree/master/SelfIntroduction)|this is the simple selfIntroductoin app|![Img](SelfIntroduction/image/ex01.png)|
 |11|| |![Img](/image/)|
 |12|| |![Img](/image/)|
 |13|| |![Img](/image/)|
